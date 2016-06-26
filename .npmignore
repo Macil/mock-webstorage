@@ -1,0 +1,7 @@
+*~
+.DS_Store
+/.eslint*
+/node_modules
+npm-debug.log
+/src
+/test
