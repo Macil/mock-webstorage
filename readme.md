@@ -1,5 +1,8 @@
 # MockWebStorage
 
+[![Circle CI](https://circleci.com/gh/AgentME/mock-webstorage.svg?style=shield)](https://circleci.com/gh/AgentME/mock-webstorage)
+[![npm version](https://badge.fury.io/js/mock-webstorage.svg)](https://badge.fury.io/js/mock-webstorage)
+
 This module exports a class implementing the [Storage
 interface](https://developer.mozilla.org/en-US/docs/Web/API/Storage). No
 persistence strategy is built-in. This class is suitable for use as a
