@@ -3,7 +3,9 @@
 [include]
 
 [libs]
+flow-libs/
 
 [options]
 unsafe.enable_getters_and_setters=true
+esproposal.class_static_fields=enable
 esproposal.class_instance_fields=enable
