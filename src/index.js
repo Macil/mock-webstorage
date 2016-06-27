@@ -9,8 +9,8 @@ export default class MockStorage {
   }
 
   key(i: number) {
-    i = Number(i);
-    return this._keys[i];
+    i = Math.floor(Number(i));
+    return (i >= 0 && i < this._keys.length) ? this._keys[i] : null;
   }
 
   getItem(k: string) {
