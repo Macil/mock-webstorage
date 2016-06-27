@@ -1,6 +1,6 @@
 {
   "name": "mock-webstorage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A mock WebStorage class for mocking localStorage and sessionStorage objects in tests.",
   "main": "js/index.js",
   "scripts": {
