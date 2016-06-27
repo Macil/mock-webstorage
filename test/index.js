@@ -68,7 +68,7 @@ describe('MockWebStorage', function() {
 
     assert.strictEqual(foo.key(-1), null);
     assert.strictEqual(foo.key(1.9), 'a');
-    assert.strictEqual(foo.key('1.9'), 'a');
+    assert.strictEqual(foo.key(('1.9': any)), 'a');
 
     foo.clear();
     assert.strictEqual(foo.key(0), null);
