@@ -26,3 +26,15 @@ require('./fileToTest');
 
 assert.strictEqual(localStorage.getItem('foo'), 'bar');
 ```
+
+## Types
+
+[Flow](https://flowtype.org/) type declarations for this module are included! As
+of Flow v0.32, you must add the following entries to your `.flowconfig` file's
+options section for them to work:
+
+```
+[options]
+unsafe.enable_getters_and_setters=true
+esproposal.class_instance_fields=enable
+```
