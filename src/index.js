@@ -8,17 +8,17 @@ export default class MockStorage {
     return this._keys.length;
   }
 
-  key(i: number) {
+  key(i: number): ?string {
     i = Math.floor(Number(i));
     return (i >= 0 && i < this._keys.length) ? this._keys[i] : null;
   }
 
-  getItem(k: string) {
+  getItem(k: string): ?string {
     k = String(k);
     return (k in this._data) ? this._data[k] : null;
   }
 
-  setItem(k: string, v: string) {
+  setItem(k: string, v: string): void {
     k = String(k);
     if (!(k in this._data)) {
       this._keys.push(k);
@@ -26,7 +26,7 @@ export default class MockStorage {
     this._data[k] = String(v);
   }
 
-  removeItem(k: string) {
+  removeItem(k: string): void {
     k = String(k);
     if (k in this._data) {
       const i = this._keys.indexOf(k);
@@ -36,7 +36,7 @@ export default class MockStorage {
     }
   }
 
-  clear() {
+  clear(): void {
     this._keys = [];
     this._data = Object.create(null);
   }
