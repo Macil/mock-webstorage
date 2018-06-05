@@ -2,7 +2,7 @@
 
 export default class MockStorage {
   _keys: Array<string> = [];
-  _data: {[k: string]: string} = Object.create(null);
+  _data: {[k: string]: string} = (Object.create(null): any);
 
   get length(): number {
     return this._keys.length;
@@ -38,6 +38,6 @@ export default class MockStorage {
 
   clear(): void {
     this._keys = [];
-    this._data = Object.create(null);
+    this._data = (Object.create(null): any);
   }
 }
