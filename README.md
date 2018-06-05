@@ -1,7 +1,6 @@
 # MockWebStorage
 
-[![Circle CI](https://circleci.com/gh/AgentME/mock-webstorage.svg?style=shield)](https://circleci.com/gh/AgentME/mock-webstorage)
-[![npm version](https://badge.fury.io/js/mock-webstorage.svg)](https://badge.fury.io/js/mock-webstorage)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/mock-webstorage/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/mock-webstorage.svg?style=flat)](https://www.npmjs.com/package/mock-webstorage) [![CircleCI Status](https://circleci.com/gh/AgentME/mock-webstorage.svg?style=shield)](https://circleci.com/gh/AgentME/mock-webstorage)
 
 This module exports a class implementing the [Storage
 interface](https://developer.mozilla.org/en-US/docs/Web/API/Storage). No
@@ -29,12 +28,5 @@ assert.strictEqual(localStorage.getItem('foo'), 'bar');
 
 ## Types
 
-[Flow](https://flowtype.org/) type declarations for this module are included! As
-of Flow v0.32, you must add the following entries to your `.flowconfig` file's
-options section for them to work:
-
-```
-[options]
-unsafe.enable_getters_and_setters=true
-esproposal.class_instance_fields=enable
-```
+[Flow](https://flowtype.org/) type declarations for this module are included!
+If you are using Flow, they won't require any configuration to use.
