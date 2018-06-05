@@ -1,6 +1,6 @@
 # MockWebStorage
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/mock-webstorage/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/mock-webstorage.svg?style=flat)](https://www.npmjs.com/package/mock-webstorage) [![CircleCI Status](https://circleci.com/gh/AgentME/mock-webstorage.svg?style=shield)](https://circleci.com/gh/AgentME/mock-webstorage)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/mock-webstorage/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/mock-webstorage.svg?style=flat)](https://www.npmjs.com/package/mock-webstorage) [![CircleCI Status](https://circleci.com/gh/AgentME/mock-webstorage.svg?style=shield)](https://circleci.com/gh/AgentME/mock-webstorage) [![Greenkeeper badge](https://badges.greenkeeper.io/AgentME/mock-webstorage.svg)](https://greenkeeper.io/)
 
 This module exports a class implementing the [Storage
 interface](https://developer.mozilla.org/en-US/docs/Web/API/Storage). No
