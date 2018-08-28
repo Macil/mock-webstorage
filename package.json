@@ -29,7 +29,7 @@
   "homepage": "https://github.com/AgentME/mock-webstorage#readme",
   "devDependencies": {
     "babel-cli": "^6.10.1",
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^9.0.0",
     "babel-plugin-add-module-exports": "^0.3.1",
     "babel-plugin-transform-class-properties": "^6.10.2",
     "babel-plugin-transform-flow-strip-types": "^6.8.0",
