@@ -8,12 +8,12 @@ export default class MockStorage {
     return this._keys.length;
   }
 
-  key(i: number): ?string {
+  key(i: number): string | null {
     i = Math.floor(Number(i));
     return (i >= 0 && i < this._keys.length) ? this._keys[i] : null;
   }
 
-  getItem(k: string): ?string {
+  getItem(k: string): string | null {
     k = String(k);
     return (k in this._data) ? this._data[k] : null;
   }
