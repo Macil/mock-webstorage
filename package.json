@@ -5,7 +5,7 @@
   "main": "js/index.js",
   "sideEffects": false,
   "scripts": {
-    "prepare": "rimraf js && babel -s true -d js/ src/ --ignore '*.test.js' && flow-copy-source -v src js --ignore '*.test.*'",
+    "prepare": "rimraf js && babel -s true -d js/ src/ --ignore '**/*.test.js' && flow-copy-source -v src js --ignore '*.test.*'",
     "test": "npm run lint && npm run flow_check && jest && tsc",
     "flow_check": "flow check",
     "lint": "eslint .",
