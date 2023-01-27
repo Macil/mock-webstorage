@@ -4,7 +4,6 @@
 /node_modules
 npm-debug.log
 /src
-/test
-/flow-libs
+/flow-typed
 /.github
 .babelrc
